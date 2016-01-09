@@ -35,13 +35,17 @@ Steps to execute:
 
     $pqsl
 
-    psql=>\i filename.sql
+    psql=>\i tournament.sql
 
 5) Open a second terminal window and move to the same directory from Step 1.
 
-6) In the new window log into the vagrant machine and change to the common directory from steps 2 and 3.
+6) In the new window log into the vagrant machine with the command: 
 
-7) From the command line, execute the python test script:
+    $vagrant ssh
 
-    $python filename.py
+7) After successful login, change to the common directory from steps 2 and 3.
+
+8) From the command line, execute the python test script:
+
+    $python tournament_test.py
 
